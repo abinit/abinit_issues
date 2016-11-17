@@ -5,7 +5,7 @@ Users are invited to commit input files that can be used by developers to reprod
 confirm the bug and then work on the bug fix. 
 Please note that the purpose of this repository is to facilitate the exchange of input files
 between Abinit users and developers. 
-This repo is **not** meant to replace our [support forum](http://forum.abinit.org/). 
+This repo is **not** meant to replace our [support forum](http://forum.abinit.org/)
 that, actually, represents the official reference to be consulted if you are encountering
 a problem or you need some help.
 
@@ -21,7 +21,8 @@ a problem or you need some help.
 
 ### Create a new issue:
 
-* Select the `Issues` tab on the github interface and click the `New Issue` button.
+* Select the [Issues tab](https://github.com/abinit/abinit_issues/issues)
+  on the github interface and click the `New Issue` button.
 
 * Give a meaningful Title to your post that may help us to find/remember your post easily. 
 
