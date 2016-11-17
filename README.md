@@ -2,22 +2,23 @@
 
 This is a github repository for issues and bugs related to [Abinit](http://www.abinit.org/). 
 Users are invited to commit input files that can be used by developers to reproduce the issue,
-confirm the bug and then work on the bug fix. 
+confirm the bug and work on the bug fix. 
 Please note that the purpose of this repository is to facilitate the exchange of input files
 between Abinit users and developers. 
 This repo is **not** meant to replace our [support forum](http://forum.abinit.org/)
-that, actually, represents the official reference to be consulted if you are encountering
+that represents the official reference to be consulted if you are encountering
 a problem or you need some help.
 
 ## Submitting
 
 ### Before you start:
 
-* Search the [forum](http://forum.abinit.org/) and the github issue tracker 
+* Search the [forum](http://forum.abinit.org/) and the github 
+  [issue tracker](https://github.com/abinit/abinit_issues/issues)
   to ensure that your issue is not a duplicate
 
-* If you think you've discovered a real bug, fork the repository and create a new issue on github
-  (follow the instructions reported below)
+* If you think you've discovered a real bug, fork the repository and create 
+  a new issue on github (follow the instructions reported below)
 
 ### Create a new issue:
 
@@ -41,15 +42,15 @@ a problem or you need some help.
   ```
 
 * Create a new directory named `issue_id` where `id` is the identifier associated 
-  to the the issue you've just created on github
+  to the the issue you've just created on github.
 
 * Please provide whole/complete files neeeded to reproduce the error. More specifically:
 
-    *  Abinit input files and files file
-    *  Pseudopotential files
-    *  The configuration options and the `config.log` file produced by `configure` (if available)
-       or, alternatively, a file with the output of `abinit -b` 
-    * Abinit output and log files
+    * Abinit input files and files file
+    * Pseudopotential files
+    * The configuration options and the `config.log` file produced by `configure` (if available)
+      or, alternatively, a file with the output of `abinit -b` 
+    * Abinit output and log files (optional)
     * Please **do not** add binary files to the repo, we only need the files needed to run
       the code
 
