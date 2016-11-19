@@ -1,5 +1,5 @@
-ndtset 1
-jdtset 21 
+ndtset 2
+jdtset 1 21 
 
 acell   3*1.0 angstrom
 
@@ -13,19 +13,19 @@ ntypat  3
 typat 12*1 14*2 33*3
 znucl 20 13 8
 
-ecut    30 Ry
+ecut    25 Ry
 ngkpt   1 1 1
 nshiftk 1
 shiftk 0. 0. 0.
 istwfk *1
 
-iscf1 7
-occopt 1
+iscf1   7
+occopt  1
 tsmear1 0.01
 diemac1 10
 diemix1 0.8
 toldfe1 1.0d-4 eV
-nband1 224
+nband  192
 
 autoparal 1
 
@@ -36,14 +36,13 @@ symchi 1
 awtr   1
 
 # GW self energy correction
-nband    224
-ecutwfn  30 Ry
-ecutsigx 30 Ry
+ecutwfn  25 Ry
+ecutsigx 25 Ry
 ecuteps   5 Ry
 rhoqpmix  0.1
 
 ###PBE0###
-gwcalctyp2?  25
+gwcalctyp2?  205
 icutcoul2?    7
 optdriver2?   4
 getwfk2?      1
@@ -54,7 +53,7 @@ nkptgw   1
 kptgw
 0.000000E+00  0.000000E+00  0.000000E+00  
 bdgw
-200 201
+180 181
 
 xred
   0.2500000000000000  0.4470700175891072  0.1970700175891071
