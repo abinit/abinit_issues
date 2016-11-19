@@ -42,7 +42,7 @@ ecuteps   5 Ry
 rhoqpmix  0.1
 
 ###PBE0###
-gwcalctyp2?  205
+gwcalctyp2?  225
 icutcoul2?    7
 optdriver2?   4
 getwfk2?      1
